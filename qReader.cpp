@@ -16,7 +16,7 @@ Reader::Reader(QString host, int port)
 
 Reader::~Reader()
 {
-    delete socket;
+    socket->deleteLater();
 }
 
 void Reader::connectHost(const QString &host, quint16 port)
