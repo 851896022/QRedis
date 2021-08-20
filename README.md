@@ -1,2 +1,2 @@
 # QRedis
-QT连接
+使用QTcpSocket实现QT连接Redis
